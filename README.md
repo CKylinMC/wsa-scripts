@@ -3,6 +3,9 @@ Some batch script that maybe useful using Windows Subsystem for Android.
 
 ## Usages
 
+1. Ensure you have adb executable on your PATH or some where easy to access.
+2. Run commands below.
+
 ### wsa.bat
 
 ```batch
