@@ -1,0 +1,2 @@
+@echo off
+wsa-adbconnect && wsa shell pm list packages | findstr -V "package:com.android" | findstr -V ":com.google.android" | findstr -V "package:android" | findstr -V "package:com.microsoft.windows.systemapp" | findstr -V "package:com.amazon.venezia" | findstr -V "package:com.microsoft.windows.userapp" | findstr -V "package:com.amazon.device.messaging"
